@@ -1,0 +1,30 @@
+html,body{border:0px;
+          margin:10px;
+          padding:10px;
+          vertical-align:baseline;
+          line-height:2px;}
+header{margin:0px;
+       height:100%;
+       width:100%;}
+button{
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+a{border: 0px;
+  text-decoration: none;
+  font-size: 26px;}
+article,pre,#guide{margin-top:30px;
+                   margin-bottom:30px;
+                   padding-top:30px;
+                   padding-bottom:30px;
+                   line-height:24px;
+                   font-size: 26px;}
+iframe{margin-top:60px;
+       margin-bottom:60px;
+       padding-top:30px;
+       padding-bottom:30px;
+       width:1200px;height:800px;}
+
+/* se vuoi mettere le animazioni mettile qui; if you want animations here*/
+/* da qui media query; media query here*/

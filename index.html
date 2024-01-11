@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it" class="js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_kbase</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body style="display: none;" onload="allert()">
+<div id="button_area">
+    <button onclick="show_page()" id="italian">Vai al sito</button>
+    <button onclick="english_version()" id="english">english_version</button>
+    <button onclick="spanish_version()" id="spanish">spanish_version</button>
+</div>
+    <header id="my_page" style="display: none;">
+        <a href="#" onclick="my_site()">allfreesources</a>
+        <a href="#" onclick="back_home()">Home</a>
+        <a href="#" onclick="My_kbase()">My_kbase</a>
+        <a href="#" onclick="My_guide()">guide</a>    
+    </header>
+	<div id="my-wp-site" style="display:none">
+	  
+	  <iframe src="https://allfreesources.wordpress.com/" type="text/html"></iframe>
+	  
+	</div>
+    <div id="my_kbase" style="display: none;">
+        <article>Questo mio sito ha due scopi:
+            <pre>
+            1.creare un semplice template word press.
+            2.Condividere le mie conoscenze in campo informatico
+            </pre>
+            </article>
+    </div>
+    <div id="guide" style="display:none;"></div>
+    <div id="english_site" style="display:none;">
+        <style type="text/css">#english{margin-top:0px;}</style>
+        <header id="my_english_page" style="display: none;">
+            <a href="#" onclick="my_english_site()">allfreesources</a>
+            <a href="#" onclick="back_home_ev()">Home</a>
+            <a href="#" onclick="my_english_kbase()">My_kbase</a>
+            <a href="#" onclick="my_english_guides()">guides</a>    
+        </header>
+    </div>
+    <div id="my-wp-site_ev" style="display:none">
+	  
+        <iframe src="https://allfreesources.wordpress.com/" type="text/html"></iframe>
+        
+      </div>
+      <div id="my_kbase_ev" style="display: none;">
+        <article>This site of mine has two purposes:
+            <pre>
+            1.Create a simple wordpress template.
+            2.Share my knowledge in the IT field
+            </pre>
+            </article>
+    </div>
+    <div id="guides_ev" style="display:none;">
+         <p>Sorry translations not avaiable now</p>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
